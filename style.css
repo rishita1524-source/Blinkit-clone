@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+}
+
+header{
+    gap: 40px;
+    display:flex;
+    align-items:center; 
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.headerleft{
+   display:flex; 
+   align-items:center;
+}
+.logo{
+    padding: 24px 30px;
+    border-right: 1px solid #ccc;
+}
+.headeraddress{
+    padding: 20px 30px;
+}
+.headeraddress h3{
+    font-size: 18px; 
+    margin-bottom: 5px;
+}
+.headeraddress p{
+    font-size: 14px;
+    color: #666;
+} 
+.searchbox{
+    border-radius: 15px;
+    flex-grow: 1;
+    background-color: #f8f8f8;
+    display:flex;
+    border: #f4f4f4 1px solid;
+}
+.searchbox button{
+    padding: 15px;
+    border:none;
+    background-color: transparent;
+}
+.searchbox input{
+    flex-grow: 1;
+    border:none;
+    background-color: transparent;
+}
+.searchbox input:focus{
+    outline:none;
+} 
+.headerBtn{
+    display:flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+.headerBtn button{
+    font-size: 18px;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+}
+.headerBtn button:last-child{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(12, 131, 31);
+    border-radius: 5px;
+}
+.bannersection{
+    margin:auto;
+    max-width: 1280px;
+}
+.bannersection img{
+    width: 100%;
+}
+.orderbanner{
+    display:flex;
+    max-width: 1280px;
+    margin:auto;
+}
+.orderbanneritems{
+    flex-basis: 27%;
+    margin: 1%;
+}
+.orderbanneritems img{
+    width: 100%;
+}
+.categorysection{
+    margin:auto;
+    max-width: 1280px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.categoryitems{
+    flex-basis: 10%;
+}
+.categoryitems img{
+    width: 100%;
+}
