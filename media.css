@@ -47,4 +47,8 @@
     .categoryitems{
         flex-basis: 25%;
     }
-}
+    .productitems{
+        flex-basis: 15%;
+        border: 1px solid #ccc;
+    }
+}                     
