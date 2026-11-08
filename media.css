@@ -47,8 +47,11 @@
     .categoryitems{
         flex-basis: 25%;
     }
-    .productitems{
-        flex-basis: 15%;
+    .productionitems{
+        flex-basis: 49%;
         border: 1px solid #ccc;
+    }
+    .productsection{
+        padding: 0px 10px;
     }
 }                     
