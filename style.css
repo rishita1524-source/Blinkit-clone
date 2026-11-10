@@ -183,6 +183,7 @@ header{
 .footer-mid-row1{
     width: 100%;
     display: flex;
+    gap: 40px;
 }
 .footer-mid-row1-left{
     flex-basis: 30%;
