@@ -52,6 +52,16 @@
         border: 1px solid #ccc;
     }
     .productsection{
-        padding: 0px 10px;
+        padding: 30px 10px;
+    }
+    .footer{
+        padding-top: 0px;
+    }
+    .footer-mid-row1{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .categoriesheadingrow{
+        display: flex;
     }
 }                     
