@@ -61,7 +61,7 @@
         flex-direction: column;
         padding: 10px;
     }
-    .categoriesheadingrow{
-        display: flex;
-    }
-}                     
+    .footer-mid-row1-right{
+        flex-basis: 48%;
+
+}    
